@@ -1,0 +1,1 @@
+<h1 style="color:blue"; font-weight:bold>Chào mừng bạn đến với  trang giao diện admin</h1>

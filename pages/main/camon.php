@@ -1,0 +1,2 @@
+<h3>QUÝ KHÁCH ĐÃ ĐẶT HÀNG THÀNH CÔNG <BR>
+ĐƠN HÀNG GIAO TRONG HÔM NAY </BR></h3>

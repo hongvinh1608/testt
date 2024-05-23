@@ -1,0 +1,65 @@
+
+    .row.content {height: auto}
+    
+    .sidenav {
+      background-color: #f1f1f1;
+    }
+    footer {
+      background-color: #555;
+      color: red;
+      /* padding: 15px; */
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+.main{
+    margin-left: 400px;
+    margin-top: -232px;
+    width: 800px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none; 
+}
+h3 .title_admin{
+    text-align: center;
+    font-size: 40px;
+    color: aqua;
+}
+ul .admin_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.wrapper{
+    /* border: 1px solid  #000; */
+    height: auto;
+    /* width: 100%; */
+    margin: 50px;
+    /* background-color: red; */
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+  }
+  
+  /* .title_admin {
+    text-align: center; 
+    padding: 20px;
+    color: #333;
+    background-color: orange; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    margin-left: auto; 
+    margin-right: auto; 
+  } */
+/* lietke */

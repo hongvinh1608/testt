@@ -1,0 +1,283 @@
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .wrapper{
+        border: 1px solid #000;
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header{
+        background-image: url("../imgs/s20-plus-pc-banner.jpg");
+        border: 1px solid #ff80ff;
+        background-size: 100% 180px;
+        height: 195px;
+        width: 100%;
+        /* background: #ff0080; */
+        background-repeat: no-repeat;
+    }
+    .menu{
+        height: 60px;
+        width: 100%;
+        background: orangered;
+    }
+    .danhmucsp ul{
+        padding: 0px;
+        margin: 0px;
+        width: 60%;
+        list-style:none ;
+        margin: 0 auto;
+        line-height: 30px;
+    }
+    .danhmucsp ul li :hover{
+        background: burlywood;
+    }
+    .danhmucsp ul li a{
+        padding: 9px;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+    .danhmucsp ul li{
+        float: left;
+        margin: 7px;
+        padding: 5px;
+    }
+    #main{
+        /* border: 1px solid #00ff80;  biết phạm vi sản phẩm bên phải */
+        width: 100%;
+        height: auto;
+
+    }
+    .sidebar{
+        border: 1px solid #000066;
+        height: 790px;
+        width: 20%;
+        /* margin-top: 5px; */
+        /* margin-left: 5px; */
+        /* float: left; */
+        
+    }
+    .list_sidebar{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        
+        list-style:none ;
+        
+        line-height: 27px;
+    }
+    .list_sidebar  li :hover{
+        background: burlywood;
+    }
+    .list_sidebar  li a{
+        padding: 9px;
+        text-decoration: none;
+        text-align: center;
+        color: #3333ff;
+        display: block;
+        text-align: left;
+    }
+    .list_sidebar  li{
+        margin: 7px;
+        padding: 5px;
+    }
+
+    .maincontent{
+        height: auto;
+        width: 78.9%;
+        margin-top: -800Px;
+        margin-left: 5px;
+        float: right;
+        height: 780PX;
+    }
+    .list_product{
+        padding: 0px;
+        margin: 15px;
+        list-style: none;
+        width: 100%;
+        /* height: 50px; */
+    }
+    .list_product li {
+        background-color: #F5F5F5;;
+        width: 18%;
+        border: 1px solid #000;
+        margin: 5px;
+        float: left;
+        border-radius: 15px;
+        box-shadow: 2px 3px 5px #E0E0E0;
+        height: 315px;
+    }
+    .list_product li img{
+        margin-top: 2px;
+        width: 100%;
+    }
+    .list_product .title_product{
+        text-align: center;
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .list_product .price_product{
+        text-align: center;
+        color: red  ;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .list_product a{
+        text-decoration: none;
+    }
+
+    .footer{
+        /* margin-top: 50px; */
+        border: 1px solid black;
+        height: 150px;
+        width: 100%;
+        background: #00cc99;
+    }
+    /* chi tiet san pham */
+    .wrapper_chitiet {
+        margin: 0 auto; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    width: auto;
+    }
+
+    .hinhanh_sanpham {
+    width: 100%; 
+    text-align: center; 
+    }
+
+    .hinhanh_sanpham img {
+    max-width: 50%; 
+    height: auto;
+    }
+
+    .chitiet_sanpham {
+    width: 100%;
+    padding-right: 250px; 
+    }
+    input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    }input[type="submit"]:hover{
+        color: red;
+    }
+    /* footer */
+    #footer{
+       border: 1px solid black;
+        height: 250px;
+        background-color: #FFF;
+    
+    }
+    #footer .bocuc{
+        height: 200px;
+    }
+    #footer .tuvan{
+        float: left;
+        display: inline-block;
+    
+        margin-left: 350px;
+    }
+    #footer .tuvan .tuvan1{
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    #footer .tuvan .tuvan2{
+    margin-top: 10px;
+    }
+    #footer .tuvan .tuvan3{
+        margin-top: 10px;
+    }
+    #footer .tuvan .tuvan4{
+        margin-top: 10px;
+    }
+    #footer .chinhsach{
+        display: inline-block;
+        margin-left: 10px;
+    }
+    #footer .chinhsach p{
+        margin-top: 10px;    
+        margin-left: 100px;
+    
+    }
+    #footer .lienhe{
+        margin-top: -200px;
+        margin-left: 80px;
+        display: inline-block;
+        text-align: center;
+    }
+    #footer .lienhe p{
+        margin-top: 13px;
+    }
+    .footer p {
+        font-size: 20px;
+        letter-spacing: 0.02em;
+        margin: 0 0 20px;
+        position: relative;
+        line-height: 30px;
+    }
+    /* trang tin tuc */
+    #baivietlq {
+        display: flex;
+        flex-direction: column;
+       
+      }
+      
+      .baivietlienquan {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .list-new {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        display: flex;
+        overflow: hidden;
+      }
+      
+      .list-new img {
+        width: 350px; /* Điều chỉnh chiều rộng của hình ảnh */
+        height: 350;
+        /* border-radius: 8px 0 0 8px; */
+      }
+      
+      .list-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+      }
+      
+      .list-new a {
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          font-weight: bold;
+          font-size: 18px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        padding: 15px;
+      }
+      
+      .list-new a:hover {
+        color: #007bff;
+      }
+      
+      .list-new p {
+        color: #888;
+        font-size: 14px;
+        margin: 0;
+      
+      }
